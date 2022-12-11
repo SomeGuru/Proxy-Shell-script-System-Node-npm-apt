@@ -1,0 +1,30 @@
+#!/bin/bash
+
+Update Ubuntu, CentOS 9, Suse, Fedora, Manjaro
+
+Update Ubuntu
+
+echo "Updating Ubuntu..."
+apt-get update && apt-get upgrade -y
+
+Update CentOS 9
+
+echo "Updating CentOS 9..."
+yum update -y
+
+Update Suse
+
+echo "Updating Suse..."
+zypper update -y
+
+Update Fedora
+
+echo "Updating Fedora..."
+dnf update -y
+
+Update Manjaro
+
+echo "Updating Manjaro..."
+pacman -Syu
+
+echo "Done updating Ubuntu, CentOS 9, Suse, Fedora, Manjaro."
